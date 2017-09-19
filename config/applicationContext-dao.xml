@@ -38,13 +38,21 @@
         <!-- 配置映射 -->
         <property name="mappingResources">
             <list>
-                <value>cn/ithup/phone/pojo/Customer.hbm.xml</value>
+                <value>cn/ithup/phone/pojo/Affiche.hbm.xml</value>
+                <value>cn/ithup/phone/pojo/BigType.hbm.xml</value>
+                <value>cn/ithup/phone/pojo/Link.hbm.xml</value>
+                <value>cn/ithup/phone/pojo/SmallType.hbm.xml</value>
+                <value>cn/ithup/phone/pojo/Goods.hbm.xml</value>
+                <value>cn/ithup/phone/pojo/Member.hbm.xml</value>
+                <value>cn/ithup/phone/pojo/Order.hbm.xml</value>
+                <value>cn/ithup/phone/pojo/Orderdetail.hbm.xml</value>
+                <value>cn/ithup/phone/pojo/Manager.hbm.xml</value>
             </list>
         </property>
 	</bean>
 	<!-- 以后：Dao都需要继承HibernateDaoSupport，注入sessionFactory -->
-	<bean id="customerDao" class="cn.ithup.phone.dao.CustomerDaoImpl">
+	<!-- <bean id="customerDao" class="cn.ithup.phone.dao.CustomerDaoImpl">
 		<property name="sessionFactory" ref="sessionFactory"/>
-	</bean>
+	</bean> -->
 	
 </beans>

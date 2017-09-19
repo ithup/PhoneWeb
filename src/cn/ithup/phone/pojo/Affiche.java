@@ -10,33 +10,33 @@ import java.util.Date;
  *
  */
 public class Affiche implements Serializable {
-	private Integer affiche_id;//公告编号PK
-	private String affiche_name;//公告标题
-	private String affiche_content;//公告内容
-	private Date affiche_issueTime;//发布时间
-	public Integer getAffiche_id() {
-		return affiche_id;
+	private Integer afficheId;//公告编号PK
+	private String afficheName;//公告标题
+	private String afficheContent;//公告内容
+	private Date afficheIssueTime;//发布时间
+	public Integer getAfficheId() {
+		return afficheId;
 	}
-	public void setAffiche_id(Integer affiche_id) {
-		this.affiche_id = affiche_id;
+	public void setAfficheId(Integer afficheId) {
+		this.afficheId = afficheId;
 	}
-	public String getAffiche_name() {
-		return affiche_name;
+	public String getAfficheName() {
+		return afficheName;
 	}
-	public void setAffiche_name(String affiche_name) {
-		this.affiche_name = affiche_name;
+	public void setAfficheName(String afficheName) {
+		this.afficheName = afficheName;
 	}
-	public String getAffiche_content() {
-		return affiche_content;
+	public String getAfficheContent() {
+		return afficheContent;
 	}
-	public void setAffiche_content(String affiche_content) {
-		this.affiche_content = affiche_content;
+	public void setAfficheContent(String afficheContent) {
+		this.afficheContent = afficheContent;
 	}
-	public Date getAffiche_issueTime() {
-		return affiche_issueTime;
+	public Date getAfficheIssueTime() {
+		return afficheIssueTime;
 	}
-	public void setAffiche_issueTime(Date affiche_issueTime) {
-		this.affiche_issueTime = affiche_issueTime;
+	public void setAfficheIssueTime(Date afficheIssueTime) {
+		this.afficheIssueTime = afficheIssueTime;
 	}
 	
 }
